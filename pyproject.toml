@@ -1,7 +1,14 @@
 [project]
-name = "bit-detection"
+name = "bit_detection"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "bitarray>=3.8.1",
+    "numpy>=2.4.4",
+    "pandas>=3.0.2",
+]
+
+[project.scripts]
+bd = "bit_detection.main:start"

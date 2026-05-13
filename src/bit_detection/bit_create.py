@@ -7,6 +7,7 @@ import random as rand
 # When available, getrandbits() enables randrange() to handle arbitrarily large ranges.
 
 DEFAULT_BITS: dict[int, bool] = {
+    0: False,
     1: False,
     2: False,
     3: False,

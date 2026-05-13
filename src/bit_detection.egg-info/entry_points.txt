@@ -1,2 +1,0 @@
-[console_scripts]
-bd = bit_detection.main:start

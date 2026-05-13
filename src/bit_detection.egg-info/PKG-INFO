@@ -1,0 +1,31 @@
+Metadata-Version: 2.4
+Name: bit_detection
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bitarray>=3.8.1
+Requires-Dist: numpy>=2.4.4
+Requires-Dist: pandas>=3.0.2
+Requires-Dist: pillow>=12.2.0
+Requires-Dist: python-dotenv>=1.2.2
+Dynamic: license-file
+
+Bit-Detection
+Colaborators: Royce Nogales, Sina Roomi
+Email: roycen1@umbc.edu, sinar1@umbc.edu
+Project Description  
+
+
+How to Run Your Project  
+1. source .venv/bin/activate  
+
+
+Known Project Issues  
+
+
+LLM/AI Prompts Used  
+
+
+Sources Used  

@@ -6,7 +6,6 @@ from pathlib import Path
 PATH = str(Path(__file__).resolve().parents[2])
 NOISY_IMAGE_PATH = f'{PATH}/files/noisy_img.png'
 
-
 def to_file(name: str, bits: bitarray) -> None:
     with open(name, 'w') as f:
         f.write(bits.tobytes().hex())
@@ -19,8 +18,7 @@ def bit_create_tests(size: int):
 
     # TODO: See if having bias be towards 0 is easier to detect or if having bias be 1 makes detection easier.
 
-    files = [f"file{i}.txt" for i in range(10)]
-    
+    files = [f"{PATH}/files/file{i}.txt" for i in range(10)]
     bc = bitcreate(size)
 
     # File 0 will be control
@@ -84,7 +82,7 @@ def start():
     # noisy_img = test.generate_noisy_image(1080, 1920, NOISY_IMAGE_PATH, True)
     # test.insert_into_image(NOISY_IMAGE_PATH, "Hello World")
 
-    bit_create_tests()
-
+    bit_create_tests(2)
+    
 if __name__ == "__main__":
     start()

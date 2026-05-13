@@ -1,6 +1,6 @@
-Bit-Detection
-Colaborators: Royce Nogales, Sina Roomi
-Email: roycen1@umbc.edu, sinar1@umbc.edu
+#Bit-Detection  
+Colaborators: Royce Nogales, Sina Roomi  
+Email: roycen1@umbc.edu, sinar1@umbc.edu  
 Project Description  
 
 

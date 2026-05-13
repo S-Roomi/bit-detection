@@ -4,9 +4,11 @@ Email: roycen1@umbc.edu, sinar1@umbc.edu
 Project Description  
 
 
-How to Run Your Project  
+##Installation  
 ```
-source .venv/bin/activate  
+curl -LsSf https://astral.sh/uv/install.sh | sh
+source .venv/bin/activate
+uv sync  
 uv pip install .
 ```
 

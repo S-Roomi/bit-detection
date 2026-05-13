@@ -1,10 +1,10 @@
-#**Bit-Detection**  
+# **Bit-Detection**  
 Colaborators: Royce Nogales, Sina Roomi  
 Email: roycen1@umbc.edu, sinar1@umbc.edu  
 Project Description  
 
 
-##**Installation**  
+## **Installation**  
 ```
 curl -LsSf https://astral.sh/uv/install.sh | sh
 source .venv/bin/activate

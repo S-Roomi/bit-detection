@@ -82,7 +82,7 @@ def start():
     # noisy_img = test.generate_noisy_image(1080, 1920, NOISY_IMAGE_PATH, True)
     # test.insert_into_image(NOISY_IMAGE_PATH, "Hello World")
 
-    bit_create_tests(2)
+    bit_create_tests(8)
     
 if __name__ == "__main__":
     start()

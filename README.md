@@ -11,6 +11,11 @@ source .venv/bin/activate
 uv sync  
 uv pip install -e .
 ```
+## **How to Run**
+```
+## runs src/bit_detection/main.py
+bd
+```
 
 Known Project Issues  
 
@@ -18,4 +23,4 @@ Known Project Issues
 LLM/AI Prompts Used  
 
 
-Sources Used  
+Sources Used

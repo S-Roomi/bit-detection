@@ -27,7 +27,7 @@ class bitcreate:
         """
         Returns random bit stream in hex
         """
-        return rand.getrandbits(self.n).to_bytes().hex()
+        return hex(rand.getrandbits(self.n))[2:]
 
     def n_bits(self, position: int, z: bool, bias: float) -> bitarray:
         """

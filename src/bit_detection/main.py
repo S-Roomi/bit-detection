@@ -19,6 +19,7 @@ def bit_create_tests(size: int, directory_name: str):
     # TODO: See if having bias be towards 0 is easier to detect or if having bias be 1 makes detection easier.
     path = f'{PATH}/files/{directory_name}'
     Path(path).mkdir(exist_ok=True)
+
     files = [f"{path}/file{i}.txt" for i in range(10)]
     bc = bitcreate(size)
 
@@ -67,26 +68,26 @@ def bit_create_tests(size: int, directory_name: str):
     test9 = bc.n_pos_bytes([1, 3, 5, 7], 0.55, {0: False, 1: True, 2: False, 3: True, 4: False, 5: True, 6: False, 7: True })
     to_file(files[9], test9)
 
-    # # TODO 
-    # # File 10 will be a little weird. Randomly manipulate 3 random positions
-    # # 
-    # #  
+
 def start():
-    # n = 2**10 
-    # test = bitcreate(n)
-    
-    # a = test.n_bits(3, False, 0.75)
+#   Run multiple bit_create_tests with different bitarray sizes 
+# --------------------------------------------------------------------------------------------------------------
+    # n = 2**10
+    # bit_create_tests(n, "test1")
+    # n = 2**5
+    # bit_create_tests(n, "test2")
+    # n = 2**20
+    # bit_create_tests(n, "test3")
 
-    # to_file("test.txt", a)
+#   One off test to see LLM could detect low bias rate and weird bit position
+# --------------------------------------------------------------------------------------------------------------
+    n = 2**15
+    bc = bitcreate(n)
 
-    # test = image_generator()
-    # noisy_img = test.generate_noisy_image(1080, 1920, NOISY_IMAGE_PATH, True)
-    # test.insert_into_image(NOISY_IMAGE_PATH, "Hello World")
+    test = bc.n_pos_bits([10], z=False, bias=0.51)
+    to_file(f'{PATH}/files/test4/file1.txt', test)
 
-    n = 2**10
-    bit_create_tests(n, "test1")
-
-
+# --------------------------------------------------------------------------------------------------------------
 
 
 

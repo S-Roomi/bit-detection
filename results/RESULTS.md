@@ -3,10 +3,9 @@
 For the prompt, we input every file 0-9 from files/ for each LLM to analyze.
 
 ## PROMPT:
-"""
-For each file, convert the hex to binary, then determine whether the data is random or not random. If it is not random, determine if there are any patterns/biases in the data in each file.
-"""
-
+"""  
+For each file, convert the hex to binary, then determine whether the data is random or not random. If it is not random, determine if there are any patterns/biases in the data in each file.  
+"""  
 
 ## RESPONSES:
 

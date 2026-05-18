@@ -2,7 +2,7 @@
 
 ## PROMPT:
 """  
-For each file, convert the hex to binary, then perform a chi squared test. Only use the results of the chi squared tests to determine whether the data is random or not random.
+For each file, convert the hex to binary, then perform a chi squared test. Only use the results of the chi squared tests to determine whether the data is random or not random.  
 """  
 
 ## RESPONSE:

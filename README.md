@@ -5,10 +5,17 @@ Project Description
 
 
 ## **Installation**  
-```
+Project requires uv package manager
+
+To install uv 
+```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+After cloning the repository, run the following
+```
+uv sync
 source .venv/bin/activate
-uv sync  
 uv pip install -e .
 ```
 ## **How to Run**

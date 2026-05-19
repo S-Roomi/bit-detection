@@ -1,7 +1,8 @@
 # **Bit-Detection**  
 Colaborators: Royce Nogales, Sina Roomi  
 Email: roycen1@umbc.edu, sinar1@umbc.edu  
-Project Description  
+
+## **Project Description** 
 A simple project to analyze how well Large Language Models (LLMs) detect irregularities in provided random data. The core of the project is in src/bit_detection, where main.py calls the objects from bit_create.py and imagine_gen.py. bit_create is an object that manipulates large bit arrays and has several functions to bias said arrays.
 
 ## **Installation**  

@@ -25,12 +25,5 @@ uv pip install -e .
 bd
 ```
 
-## **To Do**
-- [] Implement functionality to ask user for parameters so that testing can be automatic instead of manually adjusting parameters and creating functions
-- [] Test image generation
-- [] Finish up text insertion in black and white images
-- [] Clean up main.py 
-
-
 ## **LLM/AI Prompts Used**
 Look in results folder for appropriate prompts and chats
